@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:500,700");
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #000;
+  color: #fbebbf;
+  margin: 0px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.overlay {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 100vw;
+  height: 1450px;
+  z-index: -1;
+  opacity: 0.4;
+  top: 0;
+  
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  padding: 10px 20px 12px 20px;
+  margin: 0.5em;
+  color: #ffd91c;
+}
+
+h1:nth-of-type(2) {
+  font-size: 1.5em;
+  margin: 2em auto -10px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 20px;
+  margin: 0px;
+}
+
+p {
+  padding: 6px 20px 6px 20px;
+  margin: 0px;
+}
+
+img {
+  width: 500px;
+  height: auto;
+  margin: 1em;
+  border: 1px solid #ffd91c;
+}
+
+table {
+  background-color: #9c1f06;
+  margin: 1em auto;
+  padding: 5px;
+  border: 1px solid #ffd91c;
+  border-spacing: 0px;
+  width: 400px;
+}
+  
+th {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  padding: 5px;
+  background-color: #ffffff;
+  color: #850825;
+}
+  
+td {
+  padding: 10px;
+}
+
+a {
+  color: #fbebbf;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+}
+
+nav {
+  padding: 0.5em;
+  background-color: transparent;
+  overflow-x: hidden;
+}
+
+nav a {
+  text-transform: uppercase;
+  padding: .5em;
+}
+
+nav a:hover {
+  color: #fff;
+}
+  
+.offer {
+  text-transform: uppercase;  
+}
+
+.saving {
+  width: 300px;
+  margin: auto;
+  background-color: rgb(136, 4, 4);
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #521701;
+  margin: 5em auto 0;
+  padding: 10px;
+  width: 100%;
+  overflow: hidden;
+}
